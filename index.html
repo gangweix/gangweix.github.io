@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gangwei Xu</title>
+  <meta name="keywords" content="Gangwei Xu, Huazhong University of Science and Technology, Stereo Matching, Depth Estimation">
+  <meta name="description" content="Homepage of Gangwei Xu (Ph.D. student at HUST)">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.dataset.theme = 'dark';
+    })();
+  </script>
+</head>
+
+<body>
+
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+  <i class="fas fa-moon"></i>
+  <i class="fas fa-sun"></i>
+</button>
+
+<div class="container-main">
+
+  <!-- ============ Header ============ -->
+  <header>
+    <img class="profile-img" src="assets/imgs/homepage2.jpg" alt="Gangwei Xu">
+    <h1 class="name">Gangwei Xu | 许刚伟</h1>
+
+    <div class="bio">
+      <p>
+        I am a final-year Ph.D. student at
+        Huazhong University of Science and Technology,
+        advised by <a href="https://scholar.google.com/citations?user=v6xQjnUAAAAJ&hl=zh-CN">Prof. Xin Yang</a>
+        (expected to graduate in June 2027).
+        As first author (including co-first author), I have published 11 papers in top-tier journals and conferences such as
+        T-PAMI, NeurIPS, CVPR, and ICCV. My most-cited first-author paper alone has received over 500 citations on Google Scholar.
+        I was awarded funding from the National Natural Science Foundation of China PhD Student Research Program and
+        was honored with the title of &ldquo;Academic Star&rdquo; at HUST.
+      </p>
+      <p>
+        Currently, I am a research intern at <strong>Robbyant, Ant Group</strong>, mentored by
+        <a href="https://justimyhxu.github.io/" target="_blank">Yinghao Xu</a> and
+        <a href="https://zqh0253.github.io/" target="_blank">Qihang Zhang</a>,
+        focusing on video world models and robot learning.
+      </p>
+      <p>
+        I am actively looking for full-time positions. I&rsquo;m always open to collaborations. Feel free to reach out!
+      </p>
+      <p class="email">Email: gwxu [at] hust.edu.cn</p>
+    </div>
+
+    <div class="contact-icons">
+      <a href="mailto:gwxu@hust.edu.cn" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user=ZVYrKpcAAAAJ&hl=zh-CN" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://github.com/gangweix" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="assets/resume_xgw.pdf" target="_blank" title="CV"><i class="fas fa-file-pdf"></i></a>
+    </div>
+  </header>
+
+  <!-- ============ News ============ -->
+  <section>
+    <h5 class="section-title">News</h5>
+    <table class="news-table">
+      <tbody>
+        <tr><th>[2026-06]</th><td>Our WAM paper <a href="https://arxiv.org/pdf/2606.11187">Next Forcing</a> is now available as an <strong>arXiv preprint</strong>.</td></tr>
+        <tr><th>[2025-09]</th><td><a href="https://github.com/gangweix/pixel-perfect-depth">Pixel-Perfect Depth</a> accepted by <strong>NeurIPS 2025</strong>.</td></tr>
+        <tr><th>[2025-05]</th><td><a href="https://github.com/gangweix/IGEV-plusplus">IGEV++</a> accepted by <strong>TPAMI 2025</strong>.</td></tr>
+        <tr><th>[2025-03]</th><td><a href="https://github.com/Junda24/MonSter">MonSter</a> accepted by <strong>CVPR 2025</strong>.</td></tr>
+        <tr><th>[2024-10]</th><td>Honored as <strong>&ldquo;Academic Star&rdquo; (学术新星)</strong> at HUST.</td></tr>
+        <tr><th>[2024-05]</th><td>Granted the <strong>National Natural Science Foundation of China (NSFC) PhD Student Research Program</strong>.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ============ Selected Publications ============ -->
+  <section>
+    <h5 class="section-title">Selected Publications</h5>
+    <div id="selected-pubs">
+
+      <div class="pub">
+        <div class="pub-img">
+          <video class="pub-video" src="assets/videos/next-forcing.mp4" poster="assets/imgs/next_forcing_video_poster.png" autoplay muted loop playsinline preload="metadata" aria-label="Next Forcing video preview"></video>
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Next Forcing: World Action Modeling with Multi-Chunk Prediction</div>
+          <div class="pub-author"><em>Gangwei Xu</em>, Qihang Zhang, Jiaming Zhou, Xing Zhu, Yujun Shen, Xin Yang, Yinghao Xu</div>
+          <div class="pub-venue"><strong>arXiv Preprint</strong>, 2026</div>
+          <a class="btn-paper" href="https://arxiv.org/pdf/2606.11187" target="_blank">Paper</a>
+          <a class="btn-paper" href="https://gangweix.github.io/next-forcing/" target="_blank">Project</a>
+          <p class="pub-tldr">A multi-chunk prediction (MCP) framework for causal WAMs that improves training convergence speed, final accuracy, and inference efficiency via MCP-accelerated parallel chunk generation.</p>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-img">
+          <video class="pub-video" src="assets/videos/ppd.mp4" poster="assets/imgs/ppd_video_poster.png" autoplay muted loop playsinline preload="metadata" aria-label="Pixel-Perfect Depth video preview"></video>
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Pixel-Perfect Depth with Semantics-Prompted Diffusion Transformers</div>
+          <div class="pub-author"><em>Gangwei Xu</em>, Haotong Lin, Hongcheng Luo, Xianqi Wang, Jingfeng Yao, Lianghui Zhu, Yuechuan Pu, Cheng Chi, Haiyang Sun, Bing Wang, Guang Chen, Hangjun Ye, Sida Peng, Xin Yang</div>
+          <div class="pub-venue"><strong>NeurIPS 2025</strong> </div>
+          <a class="btn-paper" href="https://arxiv.org/pdf/2409.00638" target="_blank">Paper</a>
+          <a class="btn-paper" href="https://github.com/gangweix/pixel-perfect-depth" target="_blank">Code</a>
+          <p class="pub-tldr">A monocular depth foundation model with pixel-space diffusion transformers; estimated depth maps recover high-quality, flying-pixel-free point clouds.</p>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-img"><img src="assets/imgs/igev.png" alt="IGEV"></div>
+        <div class="pub-body">
+          <div class="pub-title">Iterative Geometry Encoding Volume for Stereo Matching</div>
+          <div class="pub-author"><em>Gangwei Xu</em>, Xianqi Wang, Xiaohuan Ding, Xin Yang</div>
+          <div class="pub-venue"><strong>CVPR 2023</strong></div>
+          <a class="btn-paper" href="http://openaccess.thecvf.com/content/CVPR2023/papers/Xu_Iterative_Geometry_Encoding_Volume_for_Stereo_Matching_CVPR_2023_paper.pdf" target="_blank">Paper</a>
+          <a class="btn-paper" href="https://github.com/gangweiX/IGEV" target="_blank">Code</a>
+          <p class="pub-tldr">A new architecture combining the complementary advantages of filtering-based and optimization-based methods.</p>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-img"><img src="assets/imgs/igev_pp.png" alt="IGEV++"></div>
+        <div class="pub-body">
+          <div class="pub-title">IGEV++: Iterative Multi-range Geometry Encoding Volumes for Stereo Matching</div>
+          <div class="pub-author"><em>Gangwei Xu</em>, Xianqi Wang, Zhaoxing Zhang, Junda Cheng, Chunyuan Liao, Xin Yang</div>
+          <div class="pub-venue"><strong>TPAMI 2025</strong></div>
+          <a class="btn-paper" href="https://arxiv.org/pdf/2409.00638" target="_blank">Paper</a>
+          <a class="btn-paper" href="https://github.com/gangweiX/IGEV-plusplus" target="_blank">Code</a>
+          <p class="pub-tldr">An effective and efficient method for handling large disparities and extensive ill-posed regions.</p>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-img"><img src="assets/imgs/acv.png" alt="ACVNet"></div>
+        <div class="pub-body">
+          <div class="pub-title">Attention Concatenation Volume for Accurate and Efficient Stereo Matching</div>
+          <div class="pub-author"><em>Gangwei Xu</em>, Junda Cheng, Peng Guo, Xin Yang</div>
+          <div class="pub-venue"><strong>CVPR 2022</strong></div>
+          <a class="btn-paper" href="http://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Attention_Concatenation_Volume_for_Accurate_and_Efficient_Stereo_Matching_CVPR_2022_paper.pdf" target="_blank">Paper</a>
+          <a class="btn-paper" href="https://github.com/gangweiX/ACVNet" target="_blank">Code</a>
+          <p class="pub-tldr">A novel cost volume representation (Attention Concatenation Volume) for stereo matching.</p>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-img"><img src="assets/imgs/fast_acv.png" alt="Fast-ACVNet"></div>
+        <div class="pub-body">
+          <div class="pub-title">Accurate and Efficient Stereo Matching via Attention Concatenation Volume</div>
+          <div class="pub-author"><em>Gangwei Xu</em>, Yun Wang, Junda Cheng, Jinhui Tang, Xin Yang</div>
+          <div class="pub-venue"><strong>TPAMI 2024</strong></div>
+          <a class="btn-paper" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10330699" target="_blank">Paper</a>
+          <a class="btn-paper" href="https://github.com/gangweiX/Fast-ACVNet" target="_blank">Code</a>
+          <p class="pub-tldr">A novel cost volume representation (Fast-ACV) for real-time stereo matching.</p>
+        </div>
+      </div>
+
+    </div>
+    <button class="toggle-btn" id="toggle-selected" style="display:none;">➕ Show more</button>
+  </section>
+
+  <!-- ============ All Publications ============ -->
+  <section>
+    <h5 class="section-title">All Publications</h5>
+    <button class="toggle-btn" id="toggle-all">➕ Expand</button>
+    <div id="all-pubs" style="display:none;">
+
+      <h2 class="year">2026</h2>
+
+      <div class="pub">
+        <div class="pub-img">
+          <video class="pub-video" src="assets/videos/next-forcing.mp4" poster="assets/imgs/next_forcing_video_poster.png" autoplay muted loop playsinline preload="metadata" aria-label="Next Forcing video preview"></video>
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Next Forcing: World Action Modeling with Multi-Chunk Prediction</div>
+          <div class="pub-author"><em>Gangwei Xu</em>, Qihang Zhang, Jiaming Zhou, Xing Zhu, Yujun Shen, Xin Yang, Yinghao Xu</div>
+          <div class="pub-venue"><strong>arXiv Preprint</strong>, 2026</div>
+          <a class="btn-paper" href="https://arxiv.org/pdf/2606.11187" target="_blank">Paper</a>
+          <a class="btn-paper" href="https://gangweix.github.io/next-forcing/" target="_blank">Project</a>
+        </div>
+      </div>
+
+      <h2 class="year">2025</h2>
+
+      <div class="pub">
+        <div class="pub-img">
+          <video class="pub-video" src="assets/videos/ppd.mp4" poster="assets/imgs/ppd_video_poster.png" autoplay muted loop playsinline preload="metadata" aria-label="Pixel-Perfect Depth video preview"></video>
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Pixel-Perfect Depth with Semantics-Prompted Diffusion Transformers</div>
+          <div class="pub-author"><em>Gangwei Xu</em>, Haotong Lin, Hongcheng Luo, Xianqi Wang, Jingfeng Yao, Lianghui Zhu, Yuechuan Pu, Cheng Chi, Haiyang Sun, Bing Wang, Guang Chen, Hangjun Ye, Sida Peng, Xin Yang</div>
+          <div class="pub-venue"><strong>NeurIPS 2025</strong> (ratings: 5,5,5,5)</div>
+          <a class="btn-paper" href="https://arxiv.org/pdf/2409.00638" target="_blank">Paper</a>
+          <a class="btn-paper" href="https://github.com/gangweix/pixel-perfect-depth" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-img"><img src="assets/imgs/banet_2d.png" alt="BANet"></div>
+        <div class="pub-body">
+          <div class="pub-title">BANet: Bilateral Aggregation Network for Mobile Stereo Matching</div>
+          <div class="pub-author"><em>Gangwei Xu</em>, Jiaxin Liu, Xianqi Wang, Junda Cheng, Yong Deng, Jinliang Zang, Yurui Chen, Xin Yang</div>
+          <div class="pub-venue"><strong>ICCV 2025</strong></div>
+          <a class="btn-paper" href="https://arxiv.org/pdf/2503.03259" target="_blank">Paper</a>
+          <a class="btn-paper" href="https://github.com/gangweix/BANet" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-img"><img src="assets/imgs/igev_pp.png" alt="IGEV++"></div>
+        <div class="pub-body">
+          <div class="pub-title">IGEV++: Iterative Multi-range Geometry Encoding Volumes for Stereo Matching</div>
+          <div class="pub-author"><em>Gangwei Xu</em>, Xianqi Wang, Zhaoxing Zhang, Junda Cheng, Chunyuan Liao, Xin Yang</div>
+          <div class="pub-venue"><strong>TPAMI 2025</strong></div>
+          <a class="btn-paper" href="https://arxiv.org/pdf/2409.00638" target="_blank">Paper</a>
+          <a class="btn-paper" href="https://github.com/gangweiX/IGEV-plusplus" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <h2 class="year">2024</h2>
+
+      <div class="pub">
+        <div class="pub-img"><img src="assets/imgs/hdrflow.png" alt="HDRFlow"></div>
+        <div class="pub-body">
+          <div class="pub-title">HDRFlow: Real-Time HDR Video Reconstruction with Large Motions</div>
+          <div class="pub-author"><em>Gangwei Xu</em>, Yujin Wang, Jinwei Gu, Tianfan Xue, Xin Yang</div>
+          <div class="pub-venue"><strong>CVPR 2024</strong></div>
+          <a class="btn-paper" href="https://openaccess.thecvf.com/content/CVPR2024/papers/Xu_HDRFlow_Real-Time_HDR_Video_Reconstruction_with_Large_Motions_CVPR_2024_paper.pdf" target="_blank">Paper</a>
+          <a class="btn-paper" href="https://github.com/OpenImagingLab/HDRFlow" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-img"><img src="assets/imgs/selective_stereo.png" alt="Selective-Stereo"></div>
+        <div class="pub-body">
+          <div class="pub-title">Selective-Stereo: Adaptive Frequency Information Selection for Stereo Matching</div>
+          <div class="pub-author">Xianqi Wang, <em>Gangwei Xu</em>, Hao Jia, Xin Yang</div>
+          <div class="pub-venue"><strong>CVPR 2024 (Highlight)</strong></div>
+          <a class="btn-paper" href="https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Selective-Stereo_Adaptive_Frequency_Information_Selection_for_Stereo_Matching_CVPR_2024_paper.pdf" target="_blank">Paper</a>
+          <a class="btn-paper" href="https://github.com/Windsrain/Selective-Stereo" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-img"><img src="assets/imgs/fast_acv.png" alt="Fast-ACVNet"></div>
+        <div class="pub-body">
+          <div class="pub-title">Accurate and Efficient Stereo Matching via Attention Concatenation Volume</div>
+          <div class="pub-author"><em>Gangwei Xu</em>, Yun Wang, Junda Cheng, Jinhui Tang, Xin Yang</div>
+          <div class="pub-venue"><strong>TPAMI 2024</strong></div>
+          <a class="btn-paper" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10330699" target="_blank">Paper</a>
+          <a class="btn-paper" href="https://github.com/gangweiX/Fast-ACVNet" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <h2 class="year">2023</h2>
+
+      <div class="pub">
+        <div class="pub-img"><img src="assets/imgs/igev.png" alt="IGEV"></div>
+        <div class="pub-body">
+          <div class="pub-title">Iterative Geometry Encoding Volume for Stereo Matching</div>
+          <div class="pub-author"><em>Gangwei Xu</em>, Xianqi Wang, Xiaohuan Ding, Xin Yang</div>
+          <div class="pub-venue"><strong>CVPR 2023</strong></div>
+          <a class="btn-paper" href="http://openaccess.thecvf.com/content/CVPR2023/papers/Xu_Iterative_Geometry_Encoding_Volume_for_Stereo_Matching_CVPR_2023_paper.pdf" target="_blank">Paper</a>
+          <a class="btn-paper" href="https://github.com/gangweiX/IGEV" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <h2 class="year">2022</h2>
+
+      <div class="pub">
+        <div class="pub-img"><img src="assets/imgs/acv.png" alt="ACVNet"></div>
+        <div class="pub-body">
+          <div class="pub-title">Attention Concatenation Volume for Accurate and Efficient Stereo Matching</div>
+          <div class="pub-author"><em>Gangwei Xu</em>, Junda Cheng, Peng Guo, Xin Yang</div>
+          <div class="pub-venue"><strong>CVPR 2022</strong></div>
+          <a class="btn-paper" href="http://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Attention_Concatenation_Volume_for_Accurate_and_Efficient_Stereo_Matching_CVPR_2022_paper.pdf" target="_blank">Paper</a>
+          <a class="btn-paper" href="https://github.com/gangweiX/ACVNet" target="_blank">Code</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ Experience ============ -->
+  <section>
+    <h5 class="section-title">Experience</h5>
+    <table class="exp-table">
+      <tbody>
+        <tr><th>[01/2026 - now]</th><td>Research Intern, <strong>Robbyant, Ant Group</strong> &mdash; video world models / embodied AI</td></tr>
+        <tr><th>[02/2025 - 12/2025]</th><td>Research Intern, <strong>Xiaomi EV</strong> &mdash; depth foundation models</td></tr>
+        <tr><th>[05/2023 - 12/2023]</th><td>Research Intern, <strong>Shanghai AI Laboratory</strong> &mdash; computational photography</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ============ Honors ============ -->
+  <section>
+    <h5 class="section-title">Honors &amp; Awards</h5>
+    <ul class="honors-list">
+      <li>入选中国科协青年科技人才培育工程博士生专项计划, 2025</li>
+      <li>National Scholarship (国家奖学金), PhD, 2025</li>
+      <li>挑战杯全国赛特等奖, 2025</li>
+      <li>获批首届国家自然科学基金博士研究生项目, 2024</li>
+      <li>HUST Academic Star (华中科技大学&ldquo;学术新星&rdquo;), 2024</li>
+      <li>National Scholarship (国家奖学金), PhD, 2024</li>
+      <li>National Scholarship (国家奖学金), Master, 2023</li>
+      <li>中国研究生 AI 大赛一等奖, 2023</li>
+      <li>Xiaomi Scholarship, 2022</li>
+    </ul>
+  </section>
+
+  <!-- ============ Academic Services ============ -->
+  <section class="services">
+    <h5 class="section-title">Academic Services</h5>
+    <p><strong>Conference Reviewer:</strong> CVPR 2023, ICCV 2023, SIGGRAPH Asia 2023, CVPR 2024, ECCV 2024, ICRA 2024, ICLR 2025, AAAI 2025, CVPR 2025, ICCV 2025, NeurIPS 2025, AAAI 2026, ICLR 2026, CVPR 2026.</p>
+    <p><strong>Journal Reviewer:</strong> TPAMI, IJCV, TIP, RA-L.</p>
+  </section>
+
+  <footer>&copy; 2025 Gangwei Xu</footer>
+
+</div>
+
+<script>
+  // Theme toggle
+  document.getElementById('theme-toggle').addEventListener('click', function () {
+    var isDark = document.documentElement.dataset.theme === 'dark';
+    if (isDark) {
+      delete document.documentElement.dataset.theme;
+      localStorage.setItem('theme', 'light');
+    } else {
+      document.documentElement.dataset.theme = 'dark';
+      localStorage.setItem('theme', 'dark');
+    }
+  });
+
+  // Selected Publications: show first 3, hide rest, toggle button
+  document.addEventListener('DOMContentLoaded', function () {
+    var selected = document.getElementById('selected-pubs');
+    var btnSelected = document.getElementById('toggle-selected');
+    if (selected && btnSelected) {
+      var items = selected.querySelectorAll('.pub');
+      if (items.length > 3) {
+        for (var i = 3; i < items.length; i++) items[i].style.display = 'none';
+        btnSelected.style.display = 'block';
+        var expanded = false;
+        btnSelected.addEventListener('click', function () {
+          for (var i = 3; i < items.length; i++) {
+            items[i].style.display = expanded ? 'none' : 'flex';
+          }
+          expanded = !expanded;
+          btnSelected.textContent = expanded ? '➖ Show less' : '➕ Show more';
+        });
+      }
+    }
+
+    // All Publications: expand/collapse
+    var all = document.getElementById('all-pubs');
+    var btnAll = document.getElementById('toggle-all');
+    if (all && btnAll) {
+      btnAll.addEventListener('click', function () {
+        var hidden = all.style.display === 'none' || all.style.display === '';
+        all.style.display = hidden ? 'block' : 'none';
+        btnAll.textContent = hidden ? '➖ Collapse' : '➕ Expand';
+      });
+    }
+  });
+</script>
+
+</body>
+</html>
